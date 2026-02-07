@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #14120b;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  padding: 10px 0px;
+  top: 0;
+  background-color: #14120b;
+}
+nav > div > h3 {
+  font-size: medium;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menulist {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: medium;
+}
+
+.sign {
+  padding: 5px 18px;
+  border-radius: 20px;
+  background-color: #14120b;
+  color: #fff;
+  border: 0.5px solid #4b4b4b;
+}
+.download {
+  padding: 5px 18px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  border: 0.5px solid #fff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0px;
+}
+
+.hero h3 {
+  font-size: x-large;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+
+.hero-button > button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: medium;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  align-items: center;
+}
+.clients {
+  margin-top: 20px;
+  max-width: 1200px;
+}
+
+.clients > h3 {
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+
+.logo-grid-child {
+  width: 142px;
+  height: 100px;
+  margin-top: 30px;
+  background: #282727;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-grid-child > img {
+  width: 70px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 80px;
+}
+
+.feat1 {
+  width: 1200px;
+  height: 700px;
+  background-color: #1b1913;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.feat1-image > img {
+  border-radius: 10px;
+  width: 800px;
+}
+
+.feat1-text > h4 {
+  font-size: larger;
+  font-weight: 600;
+}
+.feat1-text > p {
+  font-size: medium;
+  font-weight: 400;
+}
+
+.feat1-text > a {
+  color: rgb(203, 94, 35);
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reviews {
+  margin-top: 50px;
+}
+
+.reviews > h3 {
+  font-size: xxx-large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.revgrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.revgrid > .grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1b1913;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.revimage {
+  width: 50px;
+  border-radius: 5px;
+}
+.revprofile {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.rev-text > h3 {
+  font-size: medium;
+  font-weight: 400;
+}
+.frontier {
+  padding: 0;
+  margin: 0;
+}
+.frontier > h3 {
+  font-size: xxx-large;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.frontier-divs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.front-div {
+  background: #1b1913;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 10px;
+}
+.front-div > a {
+  color: #ca5d2a;
+}
+.front-div > img {
+  width: 400px;
+  align-items: center;
+  border-radius: 10px;
+}
+.changelog {
+  margin-top: 50px;
+}
+.changelog > h4 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+.change-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.card-change {
+  background-color: #282727;
+  padding: 20px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-change-first {
+  display: flex;
+  gap: 10px;
+}
+.card-change-first > button {
+  padding: 4px 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #fff;
+  border: 0.5px solid #fff;
+}
+
+.changelog > a {
+  color: #ca5d2a;
+}
+.joinus {
+  display: flex;
+  margin-top: 50px;
+  background-color: #282727;
+  padding: 30px;
+  border-radius: 10px;
+}
+.joinus-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.joinus-text > a {
+  color: #ca5d2a;
+}
+.joinus-img {
+  width: 75%;
+}
+.joinus-img > img {
+  width: 800px;
+  border-radius: 10px;
+}
+.highlights {
+  /* background-color: #282727; */
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+}
+.high-text {
+  position: sticky;
+  top: auto;
+  font-size: larger;
+  font-weight: 400;
+}
+.all-cards-high {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card-high {
+  background-color: #282727;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card-high-first {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-high-second {
+  margin-top: 10px;
+}
+
+.all-cards-high-a > a {
+  color: #ca5d2a;
+}
+
+.try-cursor {
+  margin: 150px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.try-cursor > h1 {
+  font-size: xxx-large;
+  font-weight: 500;
+}
+.try-cursor > button {
+  padding: 10px 20px;
+  font-size: medium;
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.foot-parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-below {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-below-sec {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+.footer-below-sec-two > button {
+  padding: 5px;
+  background-color: #4b4b4b;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+.footer-below-sec-one {
+  background-color: #4b4b4b;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+}
+.footer-below-sec-one > button {
+  padding: 6px 8px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.foot-child {
+  line-height: 25px;
+}
+
+.foot-child > p {
+  font-size: small;
+  font-weight: 500;
+  color: #edecec;
+}
+.foot-child > h2 {
+  font-size: medium;
+  font-weight: 500;
+  color: #999896;
+}
+.footer-below-first {
+  color: #999896;
+}
+
+a,
+button {
+  cursor: pointer;
+}
