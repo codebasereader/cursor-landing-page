@@ -86,10 +86,3 @@ This project is built **for learning and practice purposes only**.
 
 ---
 
-## 👨‍💻 Author
-
-**Shashanka**
-Frontend Developer
-Passionate about clean UI, performance, and fundamentals.
-
----
