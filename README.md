@@ -1,10 +1,3 @@
-Nice work 👌 recreating the **Cursor landing page using only HTML & CSS** is actually a solid flex.
-Let’s package it cleanly and professionally for your **README.md** so anyone opening the repo immediately understands the value.
-
-Below is a **ready-to-paste README.md** you can use (you can tweak wording if you want).
-
----
-
 # 🚀 Cursor Landing Page Clone (HTML & CSS)
 
 A pixel-accurate recreation of the **Cursor** landing page built **entirely with HTML and CSS**, focusing on clean structure, responsive layouts, and modern UI styling — **no JavaScript, no frameworks**.
@@ -69,7 +62,7 @@ cursor-landing-page/
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/cursor-landing-page.git
+   git clone https://github.com/codebasereader/cursor-landing-page.git
    ```
 
 2. Open `index.html` in your browser
@@ -83,15 +76,6 @@ cursor-landing-page/
 * Using Flexbox and Grid effectively
 * Managing spacing, alignment, and typography
 * Writing maintainable and scalable CSS
-
----
-
-## 🧠 Future Improvements (Optional)
-
-* Add subtle CSS animations
-* Improve accessibility (ARIA labels, contrast)
-* Dark/light theme toggle (still CSS-only)
-* Mobile-first refinements
 
 ---
 
@@ -109,12 +93,3 @@ Frontend Developer
 Passionate about clean UI, performance, and fundamentals.
 
 ---
-
-If you want, I can also:
-
-* Make this **more minimal**
-* Rewrite it in a **portfolio-style README**
-* Add **badges (HTML, CSS, Responsive)**
-* Or align it with **GitHub trending README formats**
-
-Just tell me the vibe 😄
